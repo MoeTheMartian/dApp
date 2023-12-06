@@ -1,0 +1,34 @@
+{
+  "name": "momo_dapp",
+  "version": "1.0.0",
+  "description": "This is a dApp the mysterious martians species \"MOMO\" have created for the Earthlings to enjoy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoeTheMartian/dApp.git"
+  },
+  "keywords": [
+    "meme",
+    "coin",
+    "momo",
+    "dapp",
+    "mars",
+    "elon",
+    "musk",
+    "starbase",
+    "spacex"
+  ],
+  "author": "Moe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoeTheMartian/dApp/issues"
+  },
+  "homepage": "https://github.com/MoeTheMartian/dApp#readme",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "react": "^18.2.0"
+  }
+}
