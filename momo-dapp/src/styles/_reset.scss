@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; //1rem = 16px
+}
+
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+  background-color: $background-default;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul {
+  list-style-type: none;
+}

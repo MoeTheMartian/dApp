@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+@import '../components/Governance';
+@import '../components/Leaderboard';
+@import '../components/Lottery';
+@import '../components/Staking';
+
