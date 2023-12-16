@@ -1,23 +1,24 @@
+@import '../styles/variables';
+
 .leaderboard {
-    font-family: $font-stack;
-    color: $primary-color;
-  
-    h1 {
-      font-size: 2rem;
+  font-family: $font-stack;
+  color: $primary-color;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .leaderboard-entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    .username {
+      font-weight: bold;
     }
-  
-    .leaderboard-entry {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 1rem;
-  
-      .username {
-        font-weight: bold;
-      }
-  
-      .score {
-        font-style: italic;
-      }
+
+    .score {
+      font-style: italic;
     }
   }
-  
+}
